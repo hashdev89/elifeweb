@@ -1,4 +1,4 @@
-// File: D:\My work\eLife Newweb\elife-web\app\about\page.tsx
+// File: D:\My work\elifewebtest\elife-web-2024\app\about\page.tsx
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
