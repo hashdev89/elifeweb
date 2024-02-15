@@ -1,0 +1,11 @@
+{
+  "/not-found": "app/not-found.js",
+  "/solutionsandservices/page": "app/solutionsandservices/page.js",
+  "/carehero/page": "app/carehero/page.js",
+  "/ourprojects/page": "app/ourprojects/page.js",
+  "/about/page": "app/about/page.js",
+  "/joinus/page": "app/joinus/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/pricing/page": "app/pricing/page.js"
+}
