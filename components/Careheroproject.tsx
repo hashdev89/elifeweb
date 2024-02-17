@@ -41,66 +41,15 @@ const Careheroproject = () => {
                 /> 
         </div>   
     </div>
-    <div className='flex-wrap'>
-        <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary'>Technologies:</h6>
-        <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
-                 
-                <div className='bg-surfacelight-secondary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 items-center'><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={45}
-                height={45}
-                
-                /> 
-                </div>
-             
-                </div>
-
-                <div className='bg-surfacelight-secondary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={45}
-                height={45}
-                /> 
-               </div>
-              
-                </div>
-
-                <div className='bg-surfacelight-secondary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={45}
-                height={45}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-secondary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={45}
-                height={45}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-secondary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={45}
-                height={45}
-                /> 
-                </div>
-                </div>
-              
-            </div>
-       
-    </div>
+    <div className='flex-wrap col-span-2'>
+        <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary pb-2'>Technologies:</h6>
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1'>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>React Native</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Native Base</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>PHP Laravel</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Maria DB</span></li>
+        </ul>
+    </div>   
 
     <div className='flex-wrap'>
         <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary'>Client:</h6>

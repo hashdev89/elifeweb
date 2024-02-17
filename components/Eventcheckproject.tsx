@@ -47,9 +47,14 @@ const Eventcheckproject = () => {
         <p className='text-surfacedark-primary dark:text-surfacelight-primary'>UI Design, UX Writing, Mobile App Development</p>
     </div>
 
-    <div className='flex-wrap'>
-        <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary'>Technologies:</h6>
-        <p className='text-surfacedark-primary dark:text-surfacelight-primary'>React Native, Node JS, ES 6, MYSQL</p>
+    <div className='flex-wrap col-span-2'>
+        <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary pb-2'>Technologies:</h6>
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1'>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Figma</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>PHP Laravel</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Swift</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Blade Template Engine</span></li>
+        </ul>
     </div>
 
     <div className='flex-wrap'>

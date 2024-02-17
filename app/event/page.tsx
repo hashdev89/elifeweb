@@ -4,8 +4,6 @@ import Eventcheckproducthero from '@/components/Eventcheckproducthero'
 import Eventcheckproject from '@/components/Eventcheckproject'
 import React from 'react'
 
-
-
 export default function Event() {
   return (
     <main>

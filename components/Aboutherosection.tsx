@@ -6,7 +6,7 @@ const Aboutherosection = () => {
     
     <main className="container-fluid bg-[url('/aboutback.png')] bg-cover bg-no-repeat py-10 h-98 pt-60">
       
-      <section className='max-container h-full flex-wrap px-2' >
+      <section className='max-container h-full flex-wrap px-3' >
         <div data-aos="fade-up">
         <div className='grid lg:grid-cols-2 max-sm:grid-cols-1 row-auto gap-2 h-full'>
         <div><video className="w-full rounded-sm" controls src="../aboutvideo.mp4"></video></div>

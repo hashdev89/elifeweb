@@ -57,60 +57,26 @@ const Ourworks = () => {
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary text-sm'>ENTERPRISE ENGAGEMENT SOLUTION</p>
                 </div>
 
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React Native</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Native Base</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>PHP Laravel</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Maria DB</span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/carehero"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
+        
             </div>
             <div >
 
@@ -150,60 +116,25 @@ const Ourworks = () => {
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary text-sm'>TELEMEDECINE PROJECT</p>
                 </div>
 
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/react.svg"
-                alt="react"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mui.svg"
-                alt="MUI"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-0 '><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>PHP Laravel</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React JS</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>MariaDB</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>SCSS</span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/mdonline"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
             </div>
         </Link>    
             
@@ -239,60 +170,26 @@ const Ourworks = () => {
                     <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>Text Based Ticketing System</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary text-sm'>WEB APPLICATION</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Node JS</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Sails JS</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Vue JS</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Nunjucks</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Mongo DB</span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/tbt"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
             </div>
         </Link>       
 
@@ -309,60 +206,25 @@ const Ourworks = () => {
                     <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>Event Check-in App</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary'>IPAD EVENT MANAGEMENT TOOL</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Figma</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>PHP Laravel</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Swift</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Blade Template Engine </span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/event"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
             </div>
         </Link>        
 
@@ -379,60 +241,25 @@ const Ourworks = () => {
                     <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>MayFlower Medical Group</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary'>MEDICAL GROUP SOLUTION</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React Native</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Node JS</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>ES 6</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>MYSQL</span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/mayflower"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
                 
             </div>
         </Link>
@@ -447,64 +274,29 @@ const Ourworks = () => {
                 />  
                 <div className='felx-wrap text-center p-2'>
           
-                    <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>LADMC Medical Platform</h5>
+                    <h5 className='text-surfacedark-primary dark:text-surfacelight-primary '>LADMC Medical Platform</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary'>WEB APPLICATION</p>
                 </div>
 
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-              
-            </div>
+                 <div className='flex-wrap text-center'>
+        
+         <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Microsoft .NET (MVC)</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Microsoft SQL Server</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>HTML</span></li>
+           <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>CSS</span></li>
+ 
+         </ul>
+                 </div>
+                 <Link href={"/ladmc"} className='text-center pt-2'>
+             <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                        Read More
+                          </button>  
+             </Link>
+               
+             </div>
             </div>
         </Link>
 
@@ -521,58 +313,24 @@ const Ourworks = () => {
                     <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>Bloop</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-secondary'>MOBILE APP DESIGN</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
-                 
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
                 
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
+                       <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
+                 
+                <div className='flex-wrap text-center'>
+       
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center '>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>PHP Laravel</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React Native</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Node JS</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>ES 6</span></li>
 
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
+        </ul>
                 </div>
-                </div>
+                <Link href={"/bloop"} className='text-center pt-2'>
+            <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                       Read More
+                         </button>  
+            </Link>
               
             </div>
             </div>
@@ -591,128 +349,59 @@ const Ourworks = () => {
                     <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>Student Management App</h5>
                     <p className='text-surfacedark-secondary dark:text-surfacelight-primary'>WEB APP DESIGN</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
+                <div className='flex-wrap text-center'>
+       
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Figma</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React Native</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Node JS</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>ES 6</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Android SDK..</span></li>
 
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
+        </ul>
                 </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
+                <Link href={"/studentmgt"} className='text-center pt-2'>
+            <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                       Read More
+                         </button>  
+            </Link>
               
             </div>
             </div>
         </Link>
 
-        <Link href="/studentmgt">       
+        <Link href="/elifedashboard">       
             <div className="flex-wrap bg-surfacelight-primary dark:bg-surfacedark-secondary rounded-md shadow-md st border-b-bgshades-blueshade hover:border-purple-500 border-b-4 w-full">
             <Image
-                src="/sddashboard.png"
-                alt="sddashboard"
+                src="/securitydashboard.png"
+                alt="securitydashboard"
                 width={512}
-                height={271}
+                height={371}
+                className='rounded-t-sm'
                 />  
                 <div className='felx-wrap text-center p-2'>
           
-                    <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>Student Management App</h5>
-                    <p className='text-surfacedark-secondary dark:text-surfacelight-primary'>WEB APP DESIGN</p>
+                    <h5 className='text-surfacedark-primary dark:text-surfacelight-primary'>eLife Security Dashboard</h5>
+                    <p className='text-surfacedark-secondary dark:text-surfacelight-primary'>WEB APPLICATION</p>
                 </div>
-                <div className='grid lg:grid-cols-5 max-sm:grid-cols-5 p-2 justify-items-center '>
+                <div className='grid lg:grid-cols-1 max-sm:grid-cols-1 p-2 justify-center'>
                  
-                 <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                 <div className='flex-wrap justify-items-center opacity-90 '><Image
-                src="/reactnative.svg"
-                alt="reactnative"
-                width={35}
-                height={35}
-                /> 
+                <div className='flex-wrap text-center'>
+       
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Python</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Fast API</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>React</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>MUI</span></li>
+        </ul>
                 </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/nativebase.svg"
-                alt="nativebase"
-                width={35}
-                height={35}
-                /> 
-               </div>
-
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/node.svg"
-                alt="node"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-                
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/mysql.svg"
-                alt="mysql"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
-
-                <div className='bg-surfacelight-primary dark:bg-surfacedark-primary rounded-sm p-1'>
-                <div className='flex-wrap items-center opacity-90'><Image
-                src="/ES6.svg"
-                alt="ES6"
-                width={35}
-                height={35}
-                /> 
-                </div>
-                </div>
+                <Link href={"/elifedashboard"} className='text-center pt-2'>
+            <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-sm text-sm px-2 py-2.5 p-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700">
+                       Read More
+                         </button>  
+            </Link>
               
             </div>
             </div>

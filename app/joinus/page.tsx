@@ -9,6 +9,7 @@ export default function Joinus() {
   return (
     <main>
         <Joinushero/>
+        {/* @ts-ignore */}
         <Breadcrumb/>
         <Joinusbody/>
         <Cta/>

@@ -64,6 +64,17 @@ const Tbtproject = () => {
         <p className='text-surfacedark-primary dark:text-surfacelight-primary'>Our newly designed web portal has a simple but effective user interface. You can easily accessyour tickets in progress as well as your messages and projects.</p>
     </div>
 
+    <div className='flex-wrap col-span-2'>
+        <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary pb-2'>Technologies:</h6>
+        <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1'>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Node JS</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Sails JS</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Vue JS</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Nunjucks</span></li>
+          <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-secondary rounded-sm p-1'><span>Mongo DB</span></li>
+        </ul>
+    </div>     
+
     <div className='flex-wrap'>
         <h6 className='font-semibold text-surfacedark-primary dark:text-surfacelight-primary'>Client:</h6>
         <p className='text-surfacedark-primary dark:text-surfacelight-primary'>eLife America Product</p>

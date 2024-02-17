@@ -10,7 +10,7 @@ const Careheroproducthero = () => {
           <h1>Care Hero</h1>
         </div>
         </div>
-        <p className='text-surfacelight-primary pt-2'>Enterprise SaaS Employee Engagement Solution</p>  
+        <p className='text-surfacelight-primary pt-2'>Enterprise Engagement Solution</p>  
         </section>
     </main>
   )
