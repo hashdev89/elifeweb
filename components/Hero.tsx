@@ -2,6 +2,14 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
+import {Pagination, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const Hero = () => {
 
@@ -51,7 +59,29 @@ const Hero = () => {
               
               
               </div>
+              <Swiper
+      // install Swiper modules
+      modules={[Pagination, A11y]}
+      spaceBetween={50}
+      slidesPerView={2}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide> <Image
+                src="/monitoranddashboard.png"
+                alt="devices"
+                width={1265}
+                height={702}
 
+              /></SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      ...
+    </Swiper>
         </section>
     </main>        
   )

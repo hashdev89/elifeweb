@@ -20,32 +20,32 @@ const Ourteamtab = () => {
     {
       name:"Janith Champika",
       desc:"DIRECTOR",
-      image:"../janithchampika.svg",
+      image:"../team/Janith.jpg",
     },
     {
       name:"Shashika Pradeep",
       desc:"FULL STACK ARCHITECT",
-      image:"../shashika.svg",
+      image:"../team/Shashika.jpg",
     },
     {
       name:"Chathuranga",
       desc:"FULL STACK ENGINEER",
-      image:"../chathuranga.svg",
+      image:"../team/Chathuranga.jpg",
     },
     {
       name:"Sameera Herath",
       desc:"FULL STACK ENGINEER",
-      image:"../sameera.svg",
+      image:"../team/Sameera.jpg",
     },
     {
       name:"Michael Nguyen",
       desc:"FULL STACK ENGINEER",
-      image:"../michaelnguyen.svg",
+      image:"../team/Michael.jpg",
     },
     {
       name:"Erick Mittel",
       desc:"FULL STACK ENGINEER",
-      image:"../erickmittel.svg",
+      image:"../team/Erick.jpg",
     },
  
  
@@ -61,17 +61,17 @@ const Ourteamtab = () => {
         {
           name:"Tom Luu",
           desc:"CIO",
-          image:"../tomlee.svg",
+          image:"../team/Tom.jpg",
         },
         {
           name:"Mark Brook",
           desc:"SYSTEM ADMINISTRATOR",
-          image:"../markbrook.svg",
+          image:"../team/Mark.jpg",
         },
         {
           name:"Devin Hettiarachchi",
           desc:"SYSTEM ADMINISTRATOR",
-          image:"../devin.svg",
+          image:"../team/Devin.jpg",
         },
       ]
     },
@@ -82,17 +82,17 @@ const Ourteamtab = () => {
         {
           name:"Steven Jaber",
           desc:"UI/UX ENGINEER",
-          image:"../stevenjaber.svg",
+          image:"../team/Steven.jpg",
         },
         {
           name:"Hashantha Bandara",
           desc:"UI/UX ENGINEER",
-          image:"../hashantha.svg",
+          image:"../team/Hashantha.jpg",
         },
         {
           name:"Ragavarman",
           desc:"UI/UX ENGINEER",
-          image:"../ragavarman.svg",
+          image:"../team/Ragav.jpg",
         },
       ]
     },
@@ -103,12 +103,12 @@ const Ourteamtab = () => {
         {
           name:"Janith Champika",
           desc:"DIRECTOR",
-          image:"../janithchampika.svg",
+          image:"../team/Janith.jpg",
         },
         {
           name:"Sameera Herath",
           desc:"FULL STACK ENGINEER",
-          image:"../sameera.svg",
+          image:"../team/Sameera.jpg",
         },
       ]
     },
@@ -119,12 +119,12 @@ const Ourteamtab = () => {
         {
           name:"Veronia Cabraja",
           desc:"PROJECT MANAGER",
-          image:"../veronia.svg",
+          image:"../team/Veronia.jpg",
         },
         {
           name:"Udula Dissanayaka",
           desc:"PROJECT MANAGER",
-          image:"../udula.svg",
+          image:"../team/Udula.jpg",
         },
       ]
     },
@@ -135,17 +135,17 @@ const Ourteamtab = () => {
         {
           name:"Janith Champika",
           desc:"DIRECTOR",
-          image:"../janithchampika.svg",
+          image:"../team/Janith.jpg",
         },
         {
           name:"Anuththara",
           desc:"SOFTWARE T.WRITER",
-          image:"../anuththara.svg",
+          image:"../team/Anuththra.jpg",
         },
         {
           name:"Michael Goodman",
           desc:"BUSINESS ANALYST",
-          image:"../michaelgoodman.svg",
+          image:"../team/Goodman.jpg",
         },
       ]
     },
@@ -156,7 +156,7 @@ const Ourteamtab = () => {
         {
           name:"Anuththara",
           desc:"SOFTWARE T.WRITER",
-          image:"../anuththara.svg",
+          image:"../team/Anuththra.jpg",
         },
       ]
     },
@@ -167,12 +167,12 @@ const Ourteamtab = () => {
         {
           name:"Ayomal Herath",
           desc:"SYSTEM SUPPORT",
-          image:"../ayomal.svg",
+          image:"../team/Ayomal.jpg",
         },
         {
           name:"Yasindu Widusara",
           desc:"SYSTEM SUPPORT",
-          image:"../yasindu.svg",
+          image:"../team/YASINDU.jpg",
         },
       ]
     },
@@ -183,7 +183,7 @@ const Ourteamtab = () => {
         {
           name:"Saroj Roshan",
           desc:"HR MANAGER",
-          image:"../saroj.svg",
+          image:"../team/Saroj.jpg",
         },
       ]
     },
@@ -214,8 +214,8 @@ const Ourteamtab = () => {
               {member.map((item) => (
                 
                  <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                 <div className='rounded-t-md bg-gray-100'>    
-                 <img src={item.image} className="mx-auto w-10/12 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
+                 <div className='mx-auto w-10/12 rounded-t-md bg-white'>    
+                 <img src={item.image} className="mx-auto w-10/10 rounded-t-md grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
                  </div>
                  <h6>{item.name}</h6>
                  <span className='text-gray-300 capitalize'>{item.desc}</span>

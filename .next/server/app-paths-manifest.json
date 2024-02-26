@@ -1,10 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/ourprojects/page": "app/ourprojects/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/event/page": "app/event/page.js",
-  "/carehero/page": "app/carehero/page.js",
-  "/studentmgt/page": "app/studentmgt/page.js",
-  "/bloop/page": "app/bloop/page.js"
+  "/page": "app/page.js"
 }

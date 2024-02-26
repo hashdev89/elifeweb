@@ -12,48 +12,48 @@ const Meetourteam = () => {
 
         <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-6 max-sm:grid-cols-2 gap-5 pt-10'>
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../Dilip.svg" className="rounded-t-md mx-auto w-10/10 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500 "/>
+                <div className='rounded-t-md bg-gray-white'>    
+                <img src="../team/Dilip.jpg" className="rounded-t-md mx-auto w-10/12  grayscale hover:grayscale-0 transition-all ease-in-out duration-1500 "/>
                 </div>
                 <h6>Dilip N Jay</h6>
                 <span className='text-gray-300 '>CEO, FOUNDER</span>
                 </div>
 
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../jacobthomas.svg" className="mx-auto w-10/10  grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
+                <div className='mx-auto w-10/12 rounded-t-mdbg-white'>    
+                <img src="../team/JT.jpg" className= "mx-auto w-10/10 rounded-t-md grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
                 </div>
                 <h6>Jacob Thomas</h6>
                 <span className='text-gray-300'>CTO</span>
                 </div>
 
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../tomlee.svg" className="mx-auto w-10/10  grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
+                <div className='mx-auto w-10/12 rounded-t-md bg-gray-100'>    
+                <img src="../team/Tom.jpg" className="mx-auto w-10/10 rounded-t-md grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
                 </div>
                 <h6>Tom Luu</h6>
                 <span className='text-gray-300'>CIO</span>
                 </div>
 
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../janithchampika.svg" className="mx-auto w-10/10  grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
+                <div className='mx-auto w-10/12 rounded-t-md bg-gray-100'>    
+                <img src="../team/Janith.jpg" className="mx-auto w-10/10 rounded-t-md grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
                 </div>
                 <h6>Janith Champika</h6>
                 <span className='text-gray-300'>DIRECTOR</span>
                 </div>
 
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../shashika.svg" className="mx-auto w-10/10 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
+                <div className='mx-auto w-10/12 rounded-t-md bg-gray-100'>    
+                <img src="../team/Shashika.jpg" className="mx-auto w-10/10 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500"/>
                 </div>
                 <h6>Shashika Pradeep</h6>
                 <span className='text-gray-300'>FULL STACK ARCHITECT</span>
                 </div>
 
                 <div className='flex-warp text-center space-y-2 text-surfacedark-primary dark:text-surfacelight-primary hover:text-tertiary-100 transition-all ease-in-out'>
-                <div className='rounded-t-md bg-gray-100'>    
-                <img src="../monica.svg" className="mx-auto w-10/10 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500" />
+                <div className='mx-auto w-10/12 rounded-t-md bg-gray-100'>    
+                <img src="../team/Monica.jpg" className="mx-auto w-10/10 grayscale hover:grayscale-0 transition-all ease-in-out duration-1500" />
                 </div>
                 <h6>Monica Valentino</h6>
                 <span className='text-gray-300'>CLIENT MANGER</span>
