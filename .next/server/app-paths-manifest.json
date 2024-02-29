@@ -1,4 +1,20 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/about/page": "app/about/page.js",
+  "/bloop/page": "app/bloop/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/elifedashboard/page": "app/elifedashboard/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/event/page": "app/event/page.js",
+  "/joinus/page": "app/joinus/page.js",
+  "/ladmc/page": "app/ladmc/page.js",
+  "/mayflower/page": "app/mayflower/page.js",
+  "/ourprojects/page": "app/ourprojects/page.js",
+  "/mdonline/page": "app/mdonline/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/carehero/page": "app/carehero/page.js",
   "/page": "app/page.js",
-  "/ourprojects/page": "app/ourprojects/page.js"
+  "/solutionsandservices/page": "app/solutionsandservices/page.js",
+  "/studentmgt/page": "app/studentmgt/page.js",
+  "/tbt/page": "app/tbt/page.js"
 }

@@ -7,8 +7,8 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
 type TBreadCrumbProps = {
-  homeElement: ReactNode;
-  separator: ReactNode;
+  homeElement?: ReactNode;
+  separator?: ReactNode;
   listClasses?: string;
   activeClasses?: string;
   capitalizeLinks?: boolean;

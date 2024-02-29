@@ -86,11 +86,11 @@ const Hero = () => {
             <div className='flex-wrap text-center'>
 
               <ul className='text-surfacedark-primary dark:text-surfacelight-primary inline space-x-1 text-center'>
-                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Transform your Business</span></li>
-                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Craft Enduring Business Solutions</span></li>
-                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Prioritizes Efficient Design & Development</span></li>
-                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Build Cross-Platform Apps</span></li>
-                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1'><span>Customize with our Developer SDK</span></li>
+                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1 hover:cursor-pointer hover:bg-slate-50'><span>Transform your Business</span></li>
+                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1 hover:cursor-pointer hover:bg-slate-50'><span>Craft Enduring Business Solutions</span></li>
+                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1 hover:cursor-pointer hover:bg-slate-50'><span>Prioritizes Efficient Design & Development</span></li>
+                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1 hover:cursor-pointer hover:bg-slate-50'><span>Build Cross-Platform Apps</span></li>
+                <li className='inline-block bg-surfacelight-tertiary dark:bg-surfacedark-tertiary rounded-sm p-1 mt-1 hover:cursor-pointer hover:bg-slate-50'><span>Customize with our Developer SDK</span></li>
 
 
               </ul>
