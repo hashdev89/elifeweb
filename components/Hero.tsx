@@ -75,7 +75,7 @@ const Hero = () => {
               <img src="/heroslider/ipad.png" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/heroslider/mac2.png" />
+              <img src="/heroslider/laptop3.png" />
             </SwiperSlide>
             
 
