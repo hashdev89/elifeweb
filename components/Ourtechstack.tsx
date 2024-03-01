@@ -1,5 +1,14 @@
+"use client"
 import React from 'react'
 import Image from "next/image"
+import { Autoplay, Pagination, EffectCoverflow } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+//Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+
 
 const Ourtechstack = () => {
   return (
@@ -9,104 +18,237 @@ const Ourtechstack = () => {
             <h1 className='text-surfacedark-primary dark:text-surfacelight-primary'>Our Tech Stack</h1>
             <h3 className='text-surfacedark-secondary dark:text-surfacelight-secondary'>Our Solutions are Fuelled by Forefront Technologies and Tools</h3>
         </div>
-        <div className='flex justify-center items-center bg px-2'>
-          <div className='grid grid-cols-1 grid-rows-1 gap-5 grid-flow-row-dense lg:grid-cols-6 max-sm:grid-cols-3 md:grid-cols-3 bg-surfacelight-secondary dark:bg-surfacedark-tertiary rounded-lg bl '>
+        <div className='flex justify-center items-center bg px-2 bl max-sm:hidden'>
+        <Swiper
+            //Swiper modules
+            effect={'coverflow'}
+            
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: true,
+              
+            }}
+            loop={true}
+            spaceBetween={20}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={9}
+            coverflowEffect={{
 
-            <div className='p-4 pr-4 '>
-                <img className="w-14 drop-shadow-md" src="/angular.png"  alt="angular"/>
-                
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-14 drop-shadow-md" src="/react.png" alt="react"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-14 drop-shadow-md" src="/js.png" alt="js"/>
-            </div> 
-            <div className='p-4 pr-4'>
-                <img className="w-14 drop-shadow-md" src="/viu.png" alt="viu"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-50 drop-shadow-md" src="/nodejs.png" alt="node"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18" src="/nunjux.png" alt="nunjux"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-14 drop-shadow-md" src="/lravel.png" alt="larvel"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18" src="/mysql.png" alt="mysql"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-md" src="/dotnet.png" alt="dotnet"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18" src="/microsoftsql.png" alt="microsoftsql"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-full drop-shadow-md" src="/kubernetes.png" alt="kubernetes"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-md" src="/docekr.png" alt="docekr"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-md" src="/aws.png" alt="aws"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-15 drop-shadow-lg" src="/jenkins.png" alt="jenkins"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-15 drop-shadow-lg" src="/kafka.png" alt="kafka"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-15 drop-shadow-lg" src="/mongodb.png" alt="mongodb"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-15 drop-shadow-lg" src="/nginx.png" alt="nginx"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-lg" src="/postgresql.png" alt="post"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-lg" src="/se.png" alt="se"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-lg" src="/iosandroid.png" alt="iosandroid"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-18 drop-shadow-lg" src="/cloud.png" alt="cloud"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-17 drop-shadow-lg" src="/elastic.png" alt="elastic"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-17 drop-shadow-lg" src="/logstash.png" alt="logstash"/>
-            </div>
-            <div className='p-4 pr-4'>
-                <img className="w-17 drop-shadow-lg" src="/kibana.png" alt="kibana"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-17 drop-shadow-lg" src="greenbone.png" alt="greenbone"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-18 drop-shadow-lg" src="jira.png" alt="jira"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-18 drop-shadow-lg" src="sos.png" alt="sos"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-18 drop-shadow-lg" src="suricata.png" alt="suricata"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-18 drop-shadow-lg" src="zeek.png" alt="zeek"/>
-            </div>
-            <div className='p-4 pr-4'> 
-                <img className="w-18 drop-shadow-lg" src="wazuh.png" alt="wazuh"/>
-            </div>
+              rotate: 20,
+              stretch: 0,
+              depth: 100,
+              modifier: 0,
+              slideShadows: false,
 
+            }}
+            pagination={true}
+            modules={[Autoplay, EffectCoverflow, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img src="/ourstack/angular.png" />
+              <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Angular</p>
+            </SwiperSlide>
 
-          </div>
+            <SwiperSlide>
+            <img src="/ourstack/react.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>React</p>
+            </SwiperSlide>
 
+            <SwiperSlide>
+            <img src="/ourstack/javascript.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Java Script</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/vuejs.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Vue.js</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/nodejs.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Node.js</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/nunjuks.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Nunjucks</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/laravel.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Laravel</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mysql.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MySQL</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/dotnet.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Microsoft .NET</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/sqlserver.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>SQL Server</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/kubernetes.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Kubernetes</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/docker.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Docker</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/aws.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>AWS</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/jenkins.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Jenkins</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/kafka.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Kafka</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mongodb.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mongodb.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            </SwiperSlide>
+
+          </Swiper>
+        </div>
+
+        
+        <div className='flex justify-center items-center bg px-2 bl py-10 lg:hidden'>
+        <Swiper
+            //Swiper mobile
+            effect={'coverflow'}
+            
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: true,
+              
+            }}
+            loop={true}
+            spaceBetween={20}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={3}
+            coverflowEffect={{
+
+              rotate: 20,
+              stretch: 0,
+              depth: 100,
+              modifier: 0,
+              slideShadows: false,
+
+            }}
+            pagination={true}
+            modules={[Autoplay, EffectCoverflow, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img src="/ourstack/angular.png" />
+              <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Angular</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/react.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>React</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/javascript.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Java Script</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/vuejs.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Vue.js</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/nodejs.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Node.js</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/nunjuks.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Nunjucks</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/laravel.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Laravel</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mysql.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MySQL</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/dotnet.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Microsoft .NET</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/sqlserver.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>SQL Server</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/kubernetes.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Kubernetes</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/docker.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Docker</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/aws.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>AWS</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/jenkins.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Jenkins</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/kafka.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Kafka</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mongodb.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <img src="/ourstack/mongodb.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            </SwiperSlide>
+
+          </Swiper>
         </div>
         </section>
     </main>

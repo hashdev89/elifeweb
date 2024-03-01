@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       
       <body>
-        <div className='pb-32'>
+        <div className='pb-10'>
         <Navbar/>
         </div>
         <main style={poppins.style}>

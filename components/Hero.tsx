@@ -16,7 +16,7 @@ const Hero = () => {
 
 
   return (
-    <main className="container-fluid text-center animate-fade animate-duration-1000 animate-ease-in bg-[url('/Footerbk.png')] dark:bg-[url('/darkherobak.png')] bg-cover bg-no-repeat bg-white dark:bg-surfacedark-tertiary pt-10">
+    <main className="container-fluid text-center animate-fade animate-duration-1000 animate-ease-in bg-[url('/herobk.png')] dark:bg-[url('/darkherobak.png')] bg-cover bg-center bg-no-repeat bg-white dark:bg-surfacedark-tertiary pt-28">
       <section className="max-container padding-container relative flex flex-col gap-2 pt-10">
         <h1 className='text-surfacedark-primary dark:text-surfacelight-primary animate-fade animate-ease-in'>Liberate the Future with e-life <br />App Design and Development</h1>
         <h5 className='text-surfacedark-secondary dark:text-surfacelight-secondary animate-fade animate-ease-in'>Limitless Possibilities on iOS, Android, and Responsive Web Apps</h5>
@@ -42,10 +42,13 @@ const Hero = () => {
           <Swiper
             //Swiper modules
             effect={'coverflow'}
+            
             autoplay={{
               delay: 2500,
               disableOnInteraction: true,
+              
             }}
+            loop={true}
             grabCursor={true}
             centeredSlides={false}
             slidesPerView={3}
@@ -108,6 +111,7 @@ const Hero = () => {
               delay: 2500,
               disableOnInteraction: true,
             }}
+            loop={true}
             grabCursor={true}
             autoHeight={true}
             centeredSlides={false}

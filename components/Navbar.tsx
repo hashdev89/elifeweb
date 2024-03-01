@@ -5,16 +5,26 @@ import Image from "next/image"
 import Link from "next/link"
 import ThemeSwitch from "./Themeswitch"
 import Button from './Button'
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  subsets: ['latin-ext'],
+  weight: ['300','400'],
+})
+
+const myComponentStyle = {
+  fontFamily: `${poppins}, sans-serif`, // sans-serif as a fallback//
+}
 
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(true);
 
   return (
-  <main className="bg-surfacelight-primary dark:bg-surfacedark-primary fixed top-0 left-0 w-full z-30 shadow-sm">
+  <main className="bg-surfacelight-secondary dark:bg-surfacedark-primary fixed top-0 left-0 w-full z-30 shadow-sm">
     <nav className="flexBetween max-container padding-container relative z-30 py-2 px-2">
       <Link href="/">
-        <Image className="dark" src="/eLife-logo-light.svg" alt ="logo" width={179} height={29}/>
+        <Image className="dark" src="/eLife-logo-light.svg" alt ="logo" width={130} height={29}/>
       </Link>
 
       <ul className="hidden h-full gap-10 lg:flex">
@@ -39,7 +49,7 @@ const Navbar = () => {
       </div>
    
       <div className="sm:hidden cursor-pointer pl-24">
-      <ul className="hidden h-full gap-10">
+      <ul className="hidden h-full">
         {NAV_LINKS.map((link) => (
           <Link href={link.href} key={link.key} className="regular-16 text-surfacedark-primary dark:text-surfacelight-primary flexCenter cursor-pointer transition-all hover:text-bgshades-bluemagento ">
           {link.label}

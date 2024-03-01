@@ -2,6 +2,12 @@ import Link from "next/link";
 import  React from "react"; 
 import Button from "./Button";
 import ThemeSwitch from "./Themeswitch";
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({
+  subsets: ['latin-ext'],
+  weight: ['300','400'],
+})
 
 
 //Mobile View Nav
