@@ -127,8 +127,8 @@ const Ourtechstack = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-            <img src="/ourstack/mongodb.png" />
-            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            <img src="/ourstack/nginx.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Nginx</p>
             </SwiperSlide>
 
           </Swiper>
@@ -244,8 +244,8 @@ const Ourtechstack = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-            <img src="/ourstack/mongodb.png" />
-            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>MongoDB</p>
+            <img src="/ourstack/nginx.png" />
+            <p className='text-surfacedark-secondary dark:text-surfacelight-secondary font-semibold'>Nginx</p>
             </SwiperSlide>
 
           </Swiper>

@@ -7,7 +7,7 @@ const Meetourteam = () => {
        <section className='max-container flex-wrap'>
        <div className='space-y-2'>
             <h1 className='text-surfacedark-primary dark:text-surfacelight-primary max-sm:text-center'>Meet Our Amazing Team</h1>
-            <h3 className='text-surfacedark-secondary dark:text-surfacelight-secondary max-sm:text-center'>We are proud to have extraordinary people <br/>with us who try to make a difference in the world</h3>
+            <h3 className='text-surfacedark-secondary dark:text-surfacelight-secondary max-sm:text-center'>We are proud to have extraordinary people in Our Team.</h3>
         </div>
 
         <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-6 max-sm:grid-cols-2 gap-5 pt-10'>

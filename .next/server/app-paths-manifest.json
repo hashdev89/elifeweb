@@ -1,20 +1,6 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/carehero/page": "app/carehero/page.js",
   "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/bloop/page": "app/bloop/page.js",
-  "/elifedashboard/page": "app/elifedashboard/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/event/page": "app/event/page.js",
-  "/ladmc/page": "app/ladmc/page.js",
   "/joinus/page": "app/joinus/page.js",
-  "/mayflower/page": "app/mayflower/page.js",
-  "/pricing/page": "app/pricing/page.js",
   "/page": "app/page.js",
-  "/ourprojects/page": "app/ourprojects/page.js",
-  "/studentmgt/page": "app/studentmgt/page.js",
-  "/solutionsandservices/page": "app/solutionsandservices/page.js",
-  "/mdonline/page": "app/mdonline/page.js",
-  "/tbt/page": "app/tbt/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
