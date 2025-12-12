@@ -9,6 +9,18 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // Exclude unnecessary files from build trace to prevent stack overflow
+  experimental: {
+    outputFileTracingExcludes: {
+      '*': [
+        'scripts/**/*',
+        '**/._*',
+        '**/.DS_Store',
+        '**/*.tmp',
+        '**/ps*.tmp',
+      ],
+    },
+  },
 }
 
 module.exports = nextConfig
